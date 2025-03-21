@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;                                                   //Adding  each row elements in a matrix and find index of row which had highest sum value.
 class Eg2{
     public static void main(String[] args){
         Scanner obj=new Scanner(System.in);
