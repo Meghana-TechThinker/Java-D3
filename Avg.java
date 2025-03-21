@@ -28,19 +28,31 @@ class Avg{
             }
             
         }*/
+        
+        
+    //Rotating last element to first  1 2 3 4 5------->5 1 2 3 4
+    import java.util.*;
+    class Empty{
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter size");
+        int n=obj.nextInt();
+        int[] arr=new int[n];
+        System.out.println("enter elements");
+        for(int i=0;i<n;i++){
+            arr[i]=obj.nextInt();
+        }
         int temp=0;
         System.out.println("printing");
-        for(int i=0;i<n;i++){
-            temp=arr[n-1];
-        }
-        System.out.println(temp);
         int[] brr=new int[n];
-        for (int j=1;j<n;j++){
-            brr[j]=arr[j];
-        }
+        temp=arr[n-1];
+        int i=0;
         for(int j=1;j<n;j++){
-            System.out.print(brr[j]);
+            brr[j]=arr[i];
+            i++;
         }
+        brr[0]=temp;
+        System.out.print(Arrays.toString(brr));
     }
 }
 
