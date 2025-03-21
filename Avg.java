@@ -20,7 +20,7 @@ class Avg{
         avg=sum/n;
         System.out.println("average of numbers:"+avg);*/
         
-        //printing half numbers
+        //printing even index numbers
         /*System.out.println("printing");
         for(int i=0;i<n;i++){
             if (i%2==0){
