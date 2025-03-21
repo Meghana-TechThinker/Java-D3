@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;                               //Moving zero's to the end by using another empty array
 class MoveZero{
     public static void main(String[] args){
         Scanner obj=new Scanner(System.in);
