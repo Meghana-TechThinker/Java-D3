@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;                          //Counting consecutive 1's and finding max----->{1,1,3,1,1,1}-->o/p=max:3
 class Consecutive{
     public static void main(String[] args){
         Scanner obj=new Scanner(System.in);
